@@ -2,7 +2,7 @@
 Schedule Google Calendar appointments effortlessly using natural language.
 
 Features
-1. Natural Language Input: Describe appointments (e.g., "Meeting with John tomorrow at 3 PM").
+1. Natural Language Input: Describe appointments (e.g., "Meeting with Mr.xyz tomorrow at 3 PM").
 2. AI-Powered: Uses Gemini AI for detail extraction.
 3. Google Calendar Integration: Creates events directly.
 4. Smart Time Handling: Adjusts dates/times as needed.
