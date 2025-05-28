@@ -1,0 +1,13 @@
+AI Appointment Scheduler
+Schedule Google Calendar appointments effortlessly using natural language.
+
+Features
+# Natural Language Input: Describe appointments like "Meeting with John tomorrow at 3 PM."
+# AI-Powered: Uses Gemini AI to extract event details.
+# Google Calendar Integration: Creates events directly in your calendar.
+# Smart Date/Time: Handles relative dates and past time adjustments.
+Setup
+# Google Credentials: Get credentials.json from Google Cloud Console (enable Google Calendar API, create OAuth 2.0 Client ID for Desktop app).
+# Gemini API Key: Get your Gemini API key from Google AI Studio.
+# .env File: Create a .env file in the same directory as app.py with Gemini-API="YOUR_GEMINI_API_KEY_HERE".
+# Install: pip install streamlit google-api-python-client google-auth-oauthlib google-auth-httplib2 python-dotenv langchain-google-genai
