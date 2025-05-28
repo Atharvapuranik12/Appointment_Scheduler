@@ -12,5 +12,5 @@ Setup
 1. Code: Save as project.py.
 2. Google Credentials: Get credentials.json from Google Cloud Console (Calendar API, OAuth 2.0 Desktop app).
 3. Gemini API Key: Get your key from Google AI Studio.
-4. .env File: Create with Gemini-API="YOUR_KEY_HERE".
+4. .env File: Create with Gemini-API="API_KEY".
 5. Install: pip install streamlit google-api-python-client google-auth-oauthlib google-auth-httplib2 python-dotenv langchain-google-genai
