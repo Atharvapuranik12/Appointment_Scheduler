@@ -6,6 +6,9 @@ Features
 2. AI-Powered: Uses Gemini AI for detail extraction.
 3. Google Calendar Integration: Creates events directly.
 4. Smart Time Handling: Adjusts dates/times as needed.
+
+
+
 Setup
 1. Code: Save the provided Python code as project.py.
 2. Google Credentials (credentials.json):
