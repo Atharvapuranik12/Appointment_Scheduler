@@ -19,5 +19,5 @@ Setup
 3. Gemini API Key:
   i)    Get your API key from Google AI Studio.
   ii)   Create a file named .env in the same directory as project.py.
-  iii)  Add Gemini-API="YOUR_API_KEY_HERE" to .env.
+  iii)  Add Gemini-API=" API_KEY " to .env.
 4. Install Dependencies: pip install streamlit google-api-python-client google-auth-oauthlib google-auth-httplib2 python-dotenv langchain-google-genai langgraph
