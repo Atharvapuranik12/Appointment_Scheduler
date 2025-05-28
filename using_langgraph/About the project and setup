@@ -1,29 +1,20 @@
->>>>> AI Appointment Scheduler <<<<<<
+>>>>>> AI Appointment Scheduler <<<<<<
 Schedule Google Calendar appointments effortlessly using natural language.
 
-## Features
+Features
 1. Natural Language Input: Describe appointments (e.g., "Meeting with Mr.xyz tomorrow at 3 PM").
 2. AI-Powered: Uses Gemini AI for detail extraction.
 3. Google Calendar Integration: Creates events directly.
 4. Smart Time Handling: Adjusts dates/times as needed.
-
-## Setup
-1.  **Code:** Save the provided Python code as `project.py`.
-2.  **Google Credentials (`credentials.json`):**
-    * Get this file from Google Cloud Console.
-    * Enable the Google Calendar API.
-    * Create an OAuth 2.0 Client ID for "Desktop app".
-    * Place `credentials.json` in the same directory as `project.py`.
-3.  **Gemini API Key:**
-    * Get your API key from Google AI Studio.
-    * Create a file named **`.env`** in the same directory as `project.py`.
-    * Add `Gemini-API="YOUR_API_KEY_HERE"` to `.env`.
-4.  **Install Dependencies:**
-    ```bash
-    pip install streamlit google-api-python-client google-auth-oauthlib google-auth-httplib2 python-dotenv langchain-google-genai langgraph
-    ```
-
-
-## Run
-```bash
-streamlit run project.py
+Setup
+1. Code: Save the provided Python code as project.py.
+2. Google Credentials (credentials.json):
+   i)   Get this file from Google Cloud Console.
+   ii)  Enable the Google Calendar API.
+   iii) Create an OAuth 2.0 Client ID for "Desktop app".
+   iv)  Place credentials.json in the same directory as project.py.
+3. Gemini API Key:
+  i)    Get your API key from Google AI Studio.
+  ii)   Create a file named .env in the same directory as project.py.
+  iii)  Add Gemini-API="YOUR_API_KEY_HERE" to .env.
+4. Install Dependencies: pip install streamlit google-api-python-client google-auth-oauthlib google-auth-httplib2 python-dotenv langchain-google-genai langgraph
